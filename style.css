@@ -1,220 +1,26 @@
-body{
+/* General Body Styling */
+body {
     background-color: #252525;
-}
-#img1{
-    height: 400px;
-    width: 302px;
-    border-radius: 20px;
-}
-.img1Container{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.first{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    color: rgba(185, 185, 183, 0.932);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
-h1{
-    color: #FC7522;
-    font-size: 35px;
-    font: bold;
-}
-h2{
-    font-size: 23px;
-    color: rgba(153, 153, 152, 0.932);
-}
-.propos{
-    font: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#FC7522;
-    font-size: 35px;
-    text-align: center;
-    margin-top: 215px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-.secondpage{
-    margin-left: 280px;
-    margin-right: 280px;
-    background-color: rgb(43, 43, 43);
-    margin-bottom: 180px;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    color: rgba(185, 185, 183, 0.932);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    border-radius: 20px;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    row-gap: 50px;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.23);
+    margin: 0;
+    padding: 0;
 }
 
-.experience {
-    width: 20%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.passions{
-    width: 20%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.objectifs{
-    width: 20%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-hr.line1{
-    border-top: 1px rgb(163, 162, 161);
-    width: 3in;
-}
-h4, h5, h6 {
-    font: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#FC7522;
-    font-size: 35px;
-}
-.thirdPage{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 140px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-#img2{
-    height: 360px;
-    width: 850px;
+/* Responsive Image Styling */
+#img1 {
+    height: auto;
+    width: 100%;
+    max-width: 302px;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
-.img2container{
+.img1Container {
     width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    padding: 10px;
 }
-#img3{
-    height: 360px;
-    width: 850px;
-    border-radius: 20px;
-    margin-top: 80px;
-}
-.img3container{
-display: flex;
-flex-direction: row;
-justify-content: center;
-}
-h6{
-    margin-bottom: 20px;
-}
-hr.line2{
-    border-top: 1px rgb(163, 162, 161);
-    width: 1in
-}
-.loisirs {
-    margin-top: 20px;
-    font-size: 20px;
-    color: rgba(185, 185, 183, 0.932);
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.8;
-}
-.fourthPage{
-    margin-left: 250px;
-    margin-right: 250px;
-    text-align: center;
-}
-hr.line3{
-    border-top: 1px rgb(163, 162, 161);
-    width: 2in;
-    margin-top: 25px;
-    margin-bottom: 50px;
-}
-h7, h8, h9{
-    font: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#FC7522;
-    font-size: 20px;
-}
-.formations{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(43, 43, 43);
-    margin-top: 50px;
-    margin-bottom: 180px;
-    text-align: center;
-    padding: 25px 25px 25px 25px;
-    color: rgba(185, 185, 183, 0.932);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    row-gap: 50px;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.23);
-}
-.preapp {
-    width: 20%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.dev-web {
-    width: 20%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.dev-app {
-    width: 20%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.header ul li{
-    display: inline;
-    margin-right: 50px;
-} 
-#lien0, #lien1, #lien2, #lien3 {
-    color: #FC7522;
-}
- /*a{
-    color: #FC7522;
-} */
-a:hover{
-    color: rgba(185, 185, 183, 0.932);
-    size: 30px;
-}
-.header{
+
+/* Responsive Header Styling */
+.header {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 14px;
@@ -222,12 +28,124 @@ a:hover{
     flex-direction: row;
     justify-content: center;
     border-radius: 10px;
-    background-color:  rgb(43, 43, 43);
+    background-color: rgb(43, 43, 43);
     width: 100%;
     position: sticky;
     top: 0;
     z-index: 999;
+    padding: 10px;
 }
+.header ul li {
+    display: inline;
+    margin-right: 20px;
+} 
+#lien0, #lien1, #lien2, #lien3 {
+    color: #FC7522;
+}
+a:hover {
+    color: rgba(185, 185, 183, 0.932);
+    font-size: 16px;
+}
+
+/* First Section */
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+    padding: 25px;
+    color: rgba(185, 185, 183, 0.932);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+h1 {
+    color: #FC7522;
+    font-size: 30px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 23px;
+    color: rgba(153, 153, 152, 0.932);
+}
+
+/* Propos Section */
+.propos {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FC7522;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+/* Second Page */
+.secondpage {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(43, 43, 43);
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgba(185, 185, 183, 0.932);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.23);
+}
+.experience, .passions, .objectifs {
+    width: 100%;
+    max-width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Third Page */
+.thirdPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0;
+    text-align: center;
+}
+#img2, #img3 {
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.img2container, .img3container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Formations Section */
+.formations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(43, 43, 43);
+    margin: 50px auto;
+    padding: 25px;
+    color: rgba(185, 185, 183, 0.932);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.23);
+}
+.preapp, .dev-web, .dev-app {
+    width: 100%;
+    max-width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Footer */
 .footer {
     bottom: 0;
     left: 0;
@@ -240,4 +158,36 @@ a:hover{
     justify-content: center;
     align-items: center;
     gap: 0.2rem;
-  }
+}
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+    .first, .propos, .secondpage, .thirdPage, .formations, .footer {
+        padding: 20px;
+        margin: 0 10px;
+    }
+
+    #img1, #img2, #img3 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .experience, .passions, .objectifs, .preapp, .dev-web, .dev-app {
+        width: 100%;
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+    
+    .header ul li {
+        margin-right: 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
