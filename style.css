@@ -102,6 +102,9 @@ h2 {
     max-width: 30%;
     padding: 10px;
     box-sizing: border-box;
+    color: rgba(185, 185, 183, 0.932);
+    font-size: 18px; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Third Page */
@@ -140,6 +143,12 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.23);
+}
+h7, h8, h9{
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FC7522;
+    font-size: 20px;
 }
 .preapp, .dev-web, .dev-app {
     width: 100%;
