@@ -82,8 +82,9 @@ h2 {
 
 /* Second Page */
 .secondpage {
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 1200px; /* Define maximum width */
+    margin: 0 auto; /* Center the section */
+    padding: 20px; /* Add padding for spacing */
     background-color: rgb(43, 43, 43);
     margin-bottom: 50px;
     text-align: center;
