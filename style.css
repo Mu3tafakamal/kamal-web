@@ -127,6 +127,22 @@ h2 {
     display: flex;
     justify-content: center;
 }
+hr.line2{
+    border-top: 1px rgb(163, 162, 161);
+    width: 1in
+}
+.loisirs {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgba(185, 185, 183, 0.932);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+}
+hr.line3{
+    border-top: 1px rgb(163, 162, 161);
+    width: 2in;
+    margin-top: 25px;
+    margin-bottom: 50px;
 
 /* Formations Section */
 .formations {
